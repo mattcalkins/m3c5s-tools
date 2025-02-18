@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+echo "This npx binary has been deprecated and replaced by the npx binary 'm3c5s-push2'."
+
+
 if [ -z "$DOCKER_IMAGE_NAME" ]; then
     echo "Error: DOCKER_IMAGE_NAME environment variable is not set." >&2
     exit 1
