@@ -2,6 +2,9 @@
 
 set -e
 
+echo "This npx binary has been deprecated and replaced by the npx binary 'm3c5s-build2'."
+
+
 if [ -z "$DOCKER_IMAGE_NAME" ]; then
     printf "Error: DOCKER_IMAGE_NAME environment variable is not set.\n" >&2
     exit 1

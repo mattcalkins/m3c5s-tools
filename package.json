@@ -1,16 +1,15 @@
 {
     "name": "m3c5s-tools",
-    "version": "1.2.0",
-
+    "version": "1.3.0",
     "author": "Matt Calkins",
     "license": "ISC",
     "description": "",
-
     "main": "src/index.mjs",
-
     "bin": {
         "m3c5s-build": "./bin/build.sh",
+        "m3c5s-build2": "./bin/build2.sh",
         "m3c5s-push": "./bin/push.sh",
+        "m3c5s-push2": "./bin/push2.sh",
         "m3c5s-generate-timestamp-tag": "./bin/generate-timestamp-tag.mjs"
     }
 }
